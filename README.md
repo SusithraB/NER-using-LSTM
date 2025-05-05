@@ -125,6 +125,7 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
         pred_label = tags[pred_tag]
         print(f"{word:<15} {true_label:<10} {pred_label}")
 ```
+![image](https://github.com/user-attachments/assets/9d36cd10-c7b7-4279-9436-0a7196a7d4e6)
 
 ## RESULT
 The BiLSTM NER model achieved good accuracy in identifying entities like persons, locations, and organizations. It showed strong performance on frequent tags, with scope for improvement on rarer ones.
